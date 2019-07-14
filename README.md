@@ -7,3 +7,5 @@ There is a default country in this case Brazil that is displayed on page load. I
 When a country is searched the information dispalyed is that Country's flag, capital, language, region, population, currency and gini coefficient.
 
 Check out the following API documentation https://restcountries.eu/ This Public API documentation gives you detailed information about various countries.
+
+live version https://latcat21.github.io/royal-travels/?
