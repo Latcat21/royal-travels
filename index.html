@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Royal travels</title>
+</head>
+<body>
+    <div class="home-container">
+      <!-- <div class="row">
+          <img src="images/Royal Travels-white.png" class="nav-logo">
+        </div> -->
+        <div class="text-box">
+        <h1>Welcome To Royal Travels</h1>
+        <h2>Search Your Next Travel Desination</h3>
+      <div class="search">
+          <form id="form">
+          <div class="input-form">
+          <input type="text" id="country" class="search input-form" >
+        </form>
+          <button id="search" class="button search-btn" type="submit">Search</button>
+          </div>
+        </div>
+        </div>
+      </div> 
+      <section class="output">
+      <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+            <img class="img-fluid mb-3" id="flag" src="" >
+          </div>
+        <div class="col-md-6 info">
+            <h3 id="capital" class="capital">Capital: </h3>
+              <h3 id="language">Language: </h3>
+              <h3 id="region">Region: </h3>
+              <h3 id="population">Population: </h3>
+              <h3 id="currency">Currency: </h3>
+            </div>
+        <div class="col-md-2">
+          <div class="loader-container">
+            <h4>Gini Coefficient</h4>
+            <h1 id="gini"> 2<h1>
+            
+            </div>
+           
+          </div>
+          </div>
+         </div>
+        </section>
+
+        <script src="api.js"></script>
+        <script src="storage.js"></script>
+        <script src="ui.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>
