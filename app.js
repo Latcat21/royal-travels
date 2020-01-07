@@ -17,7 +17,10 @@ document.addEventListener('DOMContentLoaded', getCountry )
 //Search New country
 document.getElementById('search').addEventListener('click', (e) => {
   
-const searchedCountry = document.getElementById('country').value
+  const searchedCountry = document.getElementById('country').value
+  if(searchedCountry.value === ""){
+   
+  }
 
   //Change Location
   country.changeLocation(searchedCountry)
