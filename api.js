@@ -9,10 +9,9 @@ class Country {
 
     const responseData = await response.json();
     return responseData[0];
-  
- 
 }
-  changeLocation(country){
+
+changeLocation(country){
     this.country = country
   }
 

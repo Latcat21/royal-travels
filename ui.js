@@ -21,7 +21,4 @@ class UI {
     this.gini.textContent = country.gini
     
   }
- 
-
-  
-}
+ }

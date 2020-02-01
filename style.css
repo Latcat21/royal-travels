@@ -120,7 +120,6 @@ form{
 
 
   .output{
-    
     min-height: 50vh;
     background-color:  #E8E8E8;
     font-size: 5rem;
@@ -129,7 +128,7 @@ form{
   #gini{
   color: #8CC800;
     font-size: 5rem;
-    position: absolute;
+   
   
 }
 
