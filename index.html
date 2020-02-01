@@ -9,36 +9,38 @@
   <title>Royal travels</title>
 </head>
 <body>
-    <div class="home-container">
-      <!-- <div class="row">
-          <img src="images/Royal Travels-white.png" class="nav-logo">
-        </div> -->
-        <div class="text-box">
+    <section class="home-container">
+        
+     <div class="bg-video">
+       <video class="bg-video-content" autoplay muted loop >
+         <source src="images/video.mp4" type="video/mp4">
+          <source src="images/video.webm" type="video/webm">
+            Your browser is not supported!
+       </video>
+     </div>
+     <div class="text-box">
         <h1>Welcome To Royal Travels</h1>
-        <h2>Search Your Next Travel Desination</h3>
-          <div class="form-group">
-          <form id="form">
-          <input type="text" id="country" class=" form-control search input-form" >
-       
-          <button id="search" class="btn btn-primary mt-3" type="submit">Search</button>
-          </form>
-          </div>
-        </div>
-        </div>
-      </div> 
+        <form action="#" class="search">
+          <input type="text" id="country" class="search__input" placeholder="Search Countries">
+          <button id="search" class="search__button">
+              <ion-icon class="search__icon" name="search"></ion-icon>
+          </button>
+      </form>
+      </div>
+    </section>
       <section class="output">
-      <div class="container">
+  <div class="container">
       <div class="row">
           <div class="col-md-4">
             <img class="img-fluid mb-3" id="flag" src="" >
           </div>
         <div class="col-md-6 info">
-            <h3 id="capital" class="capital">Capital: </h3>
-              <h3 id="language">Language: </h3>
-              <h3 id="region">Region: </h3>
-              <h3 id="population">Population: </h3>
-              <h3 id="currency">Currency: </h3>
-            </div>
+         <span>Capital: </span>  <span id="capital"></span> <br>
+         <span>Language: </span>  <span id="language"></span> <br>
+         <span>Region: </span>  <span id="region"></span> <br>
+         <span>Population: </span>  <span id="population"></span> <br>
+         <span>Currency: </span>  <span id="currency"></span> <br>
+        </div>
         <div class="col-md-2">
           <div class="loader-container">
             <h4>Gini Coefficient</h4>
@@ -50,7 +52,7 @@
           </div>
          </div>
         </section>
-
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
         <script src="api.js"></script>
         <script src="storage.js"></script>
         <script src="ui.js"></script>

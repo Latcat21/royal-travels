@@ -13,11 +13,11 @@ class UI {
   paint(country){
   
     this.flag.src = country.flag
-    this.capital.textContent += country.capital
-    this.currency.textContent += country.currencies[0].name
-    this.region.textContent += country.region
-    this.language.textContent += country.languages[0].name
-    this.population.textContent += country.population
+    this.capital.textContent = country.capital
+    this.currency.textContent = country.currencies[0].name
+    this.region.textContent = country.region
+    this.language.textContent = country.languages[0].name
+    this.population.textContent = country.population
     this.gini.textContent = country.gini
     
   }

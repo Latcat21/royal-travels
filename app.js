@@ -41,19 +41,19 @@ function getCountry(){
     
     .then(results => {
 
-      if(results == undefined){
-        let textBox = document.querySelector('.text-box');
-        let div =  document.createElement('div');
-        div.setAttribute( 'name','error');
-        div.style.backgroundColor = 'red';
-        div.style.padding = '20px';
-        div.style.fontSize = '16px';
-        div.style.textAlign = 'center';
-        div.innerHTML = 'Country Not Found';
-        textBox.appendChild(div);
+      // if(results == undefined){
+      //   let textBox = document.querySelector('.text-box');
+      //   let div =  document.createElement('div');
+      //   div.setAttribute( 'name','error');
+      //   div.style.backgroundColor = 'red';
+      //   div.style.padding = '20px';
+      //   div.style.fontSize = '16px';
+      //   div.style.textAlign = 'center';
+      //   div.innerHTML = 'Country Not Found';
+      //   textBox.appendChild(div);
 
         
-      }else
+      // }else
       
         //show results
         ui.paint(results)
