@@ -1,4 +1,6 @@
 class UI {
+
+  //comment
   constructor(){
     
     this.flag = document.getElementById('flag')
